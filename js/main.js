@@ -173,7 +173,8 @@ contacto.submit(function (e) { //uso de evento jquery
 
     base = JSON.parse(base);
 
-    console.log(base);  
+    console.log(base);
+    alert("Te contactaremos a la brevedad"); 
     
 })
 
