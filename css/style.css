@@ -1,0 +1,195 @@
+/* estilo general */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(to top, #e0eafc, #cfdef3);
+  }
+  
+  body .fixed-top {
+    padding: 0;
+  }
+  body .bg-light{
+    background-color: #2284E6!;
+  }
+
+  /* estilo Home */
+  body .nosotros {
+    padding: 3rem;
+  }
+
+  #mostrarCarousel {
+    margin-top: 4rem;
+    margin-left: 35rem;
+  }
+   /* estilo carousel */
+
+   
+   #carouselExampleDark {
+     display: none;
+   }
+
+
+   main img {
+    height: auto;
+    width: 75%;
+    padding: 1rem;
+    padding-bottom: 3rem;
+  }
+  
+  .carousel {
+    /*
+    width: 60rem; 
+    height: 75%;
+    */
+    padding: 1rem; 
+   }
+
+  main .textoSlideBlack {
+    font-size: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+  }
+  main .textoSlideWhite {
+    color: #2284E6!important;
+    font-size: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+  }
+
+  /* estilo Programas */
+  body .nosotros {
+    padding: 3rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+  }
+
+   /* estilo Programas */
+
+   body .destinos {
+    flex-wrap: nowrap;
+    background: #9AC8E6;
+    margin: 3em 15%;
+    height: auto;
+    width: auto;
+    padding: 3rem;
+    margin-bottom: 7rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+
+   }
+   body .opcionales {
+    flex-wrap: nowrap;
+    background: #9AC8E6;
+    margin: 3em 15%;
+    height: auto;
+    width: auto;
+    padding: 3rem;
+    margin-bottom: 7rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+
+   }
+body .extras {
+  padding: 2rem;
+}
+
+/* estilo Cotización */
+body .cotizacion {
+  flex-wrap: nowrap;
+  background: #9AC8E6;
+  margin: 1rem 15%;
+  height: auto;
+  width: auto;
+  padding-top: 3rem;
+  margin-bottom: 7rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+}
+
+#formulario {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  padding: 0.5em;
+  margin: 0.5em;
+
+}
+
+.anteojos {
+  height: auto;
+  width: 100%;
+}
+  /* estilo Contacto */
+body .contacto {
+    flex-wrap: nowrap;
+    background: #9AC8E6;
+    margin: 1rem 15%;
+    height: auto;
+    width: auto;
+    padding-top: 3rem;
+    margin-bottom: 7rem;
+  }
+  body .contacto__formulario {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+    color: #2284E6;
+    padding: 0.5em;
+    margin: 0.5em;
+  }
+  body .form-check {
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+  body button {
+    margin: 0.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.9rem;
+  }
+  body .btn {
+    color: #2284E6;
+    background-color: #A2CDE6;
+    margin: 0.5rem;
+  }
+
+  #contacto {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0.5em;
+  }
+
+  body .fotosup {
+    padding: 1rem;
+  }
+  
+
+  
+
+
+  /* estilo footer */
+
+  /*
+footer div {
+    background-color: #9AC8E6;
+  }
+  */
+  footer div .pieDePagina {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  footer div .pieDePagina__texto {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    color: #2284E6;
+    font-weight: bolder;
+    padding-top: 3em;
+    padding-left: 2em;
+  }
+  footer div i {
+    color: #2284E6;
+    padding: 0.5rem;
+  }
+  

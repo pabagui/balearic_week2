@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8070a25c5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+    <title>Inicio</title>
+</head>
+<body>
+
+  <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Balearic Week</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#programas" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Programas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="nav-link" href="#programas">Programas</a>
+                      <li><a class="dropdown-item" href="#ibiza">Ibiza y Formentera</a></li>
+                      <li><a class="dropdown-item" href="#mallorca">Mallorca</a></li>
+                      <li><a class="dropdown-item" href="#menorca">Menorca</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+  </header>
+
+      <!-- FIN DEL HEADER -->
+
+
+      <!-- sección home -->
+  <main id="home" class="home">
+    <div>
+      <button id="mostrarCarousel" class="btn btn-primary">Navega el Mediterráneo</button>
+    </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="img/mujerplaya.jpg" class="d-block w-100" alt="mujer en la playa">
+              <div class="carousel-caption d-none d-md-block textoSlideBlack">
+                <h5>Vive la magia de navegar el Mediterráneo</h5>
+                <!-- <p>Some representative placeholder content for the first slide.</p> -->
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/catamaran1.jpg" class="d-block w-100" alt="catamarán navegando">
+              <div class="carousel-caption d-none d-md-block textoSlideBlack">
+                <h5>Una experiencia única</h5>
+                <p>Balearic Week es una experiencia de 8 días/7 noches o 12 días/11 noches navegando en un catamarán privado por las mejores playas del Mediterráneo, entre las islas de Formentera, Ibiza, Mallorca o Menorca. Capacidad máxima de 9 personas. Fechas fijas y ya cerradas.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/hombreatardecer.jpg" class="d-block w-100" alt="hombre descansando en barco">
+              <div class="carousel-caption d-none d-md-block textoSlideWhite">
+                <h5>Tú escoges la ruta</h5>
+                <p>Podemos elegir navegar de playa en playa o bien estar más tiempo en un lugar específico, el itinerario es flexible y se adapta a lo que definan como grupo. El capitán del barco propondrá una ruta inicial tentativa semanas antes de embarcar.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </main>
+     
+
+<!-- sección Nosotros -->
+
+
+    <section id="nosotros" class="nosotros">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col"><h2>Nosotros</h2></div>
+        </div>
+
+        <div class="row">
+          <div class="col">     
+            <h3>Sabores, colores y lugares</h3>
+            <p>Comida mediterránea, productos del mar o una barbacoa a bordo. El grupo elegirá la comida que prefiera. La idea es hacer una gran compra inicial de supermercado para la estadía con las preferencias comunes de todos. Y si hay ánimo de desembarcar, se puede escoger entre cientos de chiringuitos en las islas.</p>
+          </div>
+          <div class="col"><img src="img/mariscos2.jpg" class="card-img-top" alt="plato de mariscos"></div>
+        </div>
+
+        <div class="row">
+          <div class="col"><img src="img/catamaran3.jpg" class="card-img-top" alt="plato de mariscos"></div>
+          <div class="col">
+            <h3>Tripulación</h3>
+            <p>El catamarán cuenta con un Capitán a bordo, quien maneja todo lo relativo a la navegación. Los invitados deben ayudar en algunas tareas puntuales al anclar en ciertos lugares.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">     
+            <h3>Dormir y descansar</h3>
+            <p>La embarcación está diseñada para que 8 personas duerman cómodas, divididas en cuatro cabinas dobles. Dos cabinas cuentan cada una con baño privado, mientras que las otras dos comparten un baño. Son cabinas de menor tamaño (no suite), pero suficientes para dos personas por cada cabina. Ropa de cama y toallas incluidas.</p>
+          </div>
+          <div class="col"><img src="img/camarote.png" class="card-img-top" alt="cabina"></div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h3>Otras instalaciones</h3>
+            <p>El catamarán cuenta además con aire acondicionado, wifi, smart tv, parrilla exterior, generador eléctrico, bañera y zona de comedor exterior (adicional a la interior). En total son tres niveles, el superior es donde se ubica el timón, al medio el comedor, cocina y plataforma exterior. El inferior para las cabinas y los baños.</p>
+          </div>
+            <div class="col"><img src="img/layoutcatamaran.png" class="card-img-top" alt="plano del catamaran"></div>
+          <div class="col">
+            <h3>Detales técnicos</h3>
+            <ul id="listaProgramas">
+              <li>Embarcación: Catamarán</li>
+              <li>Modelo: Lagoon 450</li>
+              <li>Año: 2012</li>
+              <li>Eslora: 13,96M</li>
+              <li>Manga: 7,84M</li>
+              <li>Capacidad día: 11p</li>
+              <li>Capacidad noche: 8p + Capitán</li>
+            </ul>
+          </div>
+        </div>
+      </div>     
+    </section>
+
+    
+    <!-- sección programas -->
+
+    <section id="programas" class ="destinos">
+      <h2>Programas</h2>
+
+      <div id="ibiza" class="row">
+        <div id="formentera" class="col-sm-4">
+          <div class="card">
+            <img src="img/ibizapueblo.jpg" class="card-img-top" alt="pueblo de ibiza">
+            <div class="card-body">
+              <h5 class="card-title">Ibiza y Formentera</h5>
+              <ul id="listaProgramas">
+                <li>8d/7n</li>
+                <li>USD$ 650</li>
+                <li>Embarque a las 12 del día, sábado 7 de agosto de 2021 en el puerto de San Antonio, ubicado a 20KM de Ibiza (25 min en auto)</li>
+                <li>Desembarque es en el mismo puerto de San Antonio a las 18:00 de día sábado 14 de agosto</li>
+              </ul>
+              <a href="#simulador" class="btn btn-primary">Cotizar</a>
+              <button id="climaIbiza" class="btn btn-primary">Ver clima en Ibiza</button>
+              <button id="climaFormentera" class="btn btn-primary">Ver clima en Formentera</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="mallorca" class="col-sm-4">
+          <div class="card">
+            <img src="img/cala2.png" class="card-img-top" alt="vista de mallorca">
+            <div class="card-body">
+              <h5 class="card-title">Mallorca</h5>
+              <ul id="listaProgramas">
+                <li>12d/11n</li>
+                <li>USD$ 900</li>
+                <li>Embarque a las 12 del día, sábado 7 de agosto de 2021 en el puerto de Palma</li>
+                <li>Desembarque es en el mismo puerto de Palma a las 18:00 de día miercoles 18 de agosto</li>
+              </ul>
+              <a href="#simulador" class="btn btn-primary">Cotizar</a>
+              <button id="climaMallorca" class="btn btn-primary">Ver clima en Mallorca</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="menorca" class="col-sm-4">
+          <div class="card">
+            <img src="img/menorca.jpg" class="card-img-top" alt="cala en menorca">
+            <div class="card-body">
+              <h5 class="card-title">Menorca</h5>
+              <ul id="listaProgramas">
+                <li>8d/7n</li>
+                <li>USD$ 750</li>
+                <li>Embarque a las 12 del día, sábado 7 de agosto de 2021 en el puerto de Alcudia, ubicado a 40KM de Palma (50 min en auto)</li>
+                <li>Desembarque es en el mismo puerto de Alcudia a las 18:00 de día sábado 14 de agosto</li>
+              </ul>
+              <a href="#simulador" class="btn btn-primary">Cotizar</a>
+              <button id="climaMenorca" class="btn btn-primary">Ver clima en Menorca</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- sección cotizador -->  
+
+<section id="simulador" class="cotizacion container opcionales">
+    <h2>Cotización</h2>
+    <p>Rellena con los datos para obtener tu cotización:</p>
+    <div id="cotizar">
+      <form id="formulario">
+        <p>Escribe el número de pasajeros (máximo 9):</p>
+        <input type="number"  placeholder="Número de pasajeros">
+        <br>
+        <br>
+        <p>Elige el número del destino: 1) Ibiza y Formentera, 2) Mallorca, 3) Menorca</p>
+        <input type="number"  placeholder="Número de isla elegida">
+        <br>
+        <br>
+        <p>Elige el número del servicio extra: 1) Pick-up ida y vuelta al aeropuerto: USD$ 50, 2) Tarde de buceo: USD$ 120, 3) Stand up paddle por 2 horas: USD$ 35, 4) Ningún servicio extra</p>
+        <input type="number" name="servicioEscogido" placeholder="Número de servicio elegido">
+        <input class="btn btn-primary" type="submit" value="Cotizar-incluye impuestos">       
+      </form>
+    </div>
+
+    <div id="imagenCotizar">
+      <img class="anteojos" src="img/anteojosplaya.jpg" alt="anteojos en la arena">
+    </div>
+  </section> 
+    
+
+        <!-- sección contacto -->  
+    <section class="container contacto">
+      <div>
+          <h2>Contacto</h2>
+          <div class="row">
+
+            <div class="col-6">
+                  <form id="contacto" class="row g-3">
+                      <label for="name" class="form-label col-md-6">Nombre</label>
+                    <input type="text"  placeholder="Escribir nombre" class="col-md-6">
+                    <br>
+                    <br>
+                    <label for="name" class="form-label col-md-6">Apellido</label>
+                    <input type="text"  placeholder="Escribir apellido" class="col-md-6">
+                    <br>
+                    <br>
+                    <label for="name" class="form-label col-md-6">Email</label>
+                    <input type="email" placeholder="Escribir email" class="col-md-6">
+                    <br>
+                    <br>
+                    <label for="name" class="form-label col-md-6">Teléfono</label>
+                    <input type="text" placeholder="Escribir teléfono" class="col-md-6">
+                    <br>
+                    <br>
+                    <input class="btn btn-primary btn-formulario col-md-4" type="submit" value="Enviar">
+                    <input class="btn btn-primary btn-formulario col-md-4" type="reset" value="Borrar">
+                  </form>
+            </div>
+            <div class="col-6 fotosup"><img src="img/sup3.jpg" class="d-block w-100" alt="stand up paddle en el mar"></div>
+          </div>
+       </div>       
+    </section>
+
+
+        <!-- footer -->
+        <footer class="page-footer font-small unique-color-dark">
+            <div>
+                <div class="container">
+                    <div class="row py-4 d-flex align-items-center">
+                        <div class="col-md-8 col-lg-6 text-center text-md-left mb-4 mb-md-0">
+                            <p class="mb-0 pieDePagina__texto">&#169 2021 Todos los derechos reservados. Sitio desarrollado por @pabagui</p>
+                        </div>
+                        <div class="col-md-4 col-lg-6 text-center  text-md-right">
+                            <span>
+                                <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x"></i></a>
+                            </span>
+                            <span>
+                                <a href="https://www.instagram.com"><i class="fab fa-instagram fa-3x"></i></a>
+                            </span>
+                            <span>
+                                <a href="http://www.youtube.com"><i class="fab fa-youtube fa-3x"></i></a>
+                            </span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+     <!-- fin footer -->
+
+    
+<script src="js/main.js"></script>   
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
